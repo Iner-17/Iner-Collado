@@ -7,17 +7,19 @@ header {
 /* Navigation bar, FIXED */
 nav {
   position: fixed;
+  height: 7vh;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 100px;
+  padding: 0px 100px;
   background: #1b98e0;
 }
 
 .nav-links {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   width: 30%;
 }
 
@@ -29,17 +31,11 @@ nav {
 
 .nav-links li {
   list-style-type: none;
-  margin: 0 20px;
-}
-
-.nav-links li:hover {
-  transform: scale(1.05);
 }
 
 .nav-links a {
   font-family: "Bebas Neue", cursive;
   font-size: 1.2em;
-  position: relative;
   text-decoration: none;
   font-weight: 600;
   letter-spacing: 1.5px;
@@ -48,6 +44,8 @@ nav {
 
 .nav-links a:hover {
   color: #204669;
+  background: #aed7fd;
+  padding: 25px 0px;
 }
 
 .active {
@@ -76,8 +74,9 @@ main {
   transform: translate(-50%);
   padding: 10px 50px;
   width: 75%;
-  background-color: #fff;
-  height: 350px;
+  background-color: #e8f1f2;
+  height: 550px;
+  box-shadow: -7px 7px 20px rgba(0, 0, 0, 0.3);
 }
 
 .content {
