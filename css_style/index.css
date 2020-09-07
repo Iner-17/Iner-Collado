@@ -5,10 +5,15 @@ header {
 }
 
 /* Navigation bar, FIXED */
+.landing-page {
+  height: 100vh;
+}
+
 nav {
   position: fixed;
   height: 7vh;
   width: 100%;
+  z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -64,7 +69,7 @@ nav {
 }
 
 /* All content goes here */
-main {
+.main-content {
   display: flex;
   position: absolute;
   top: 150px;
@@ -86,6 +91,7 @@ main {
   font-family: "Bebas Neue", cursive;
   letter-spacing: 2px;
   padding-top: 40px;
+  color: #13293d;
   font-size: 85px;
   line-height: 1em;
 }
@@ -99,8 +105,8 @@ main {
 
 .content p {
   margin: 20px 0 20px 0;
-  font-size: 1.2em;
-  font-weight: 600;
+  font-size: 20px;
+  color: #13293d;
 }
 
 .content a {
@@ -142,6 +148,25 @@ main {
 
 img {
   animation: svg_slide 1s forwards;
+}
+
+.about-page {
+  height: 100vh;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background: #f4f4f4;
+}
+
+.about-page h1 {
+  color: #13293d;
+  font-size: 54px;
+  margin-bottom: 20px;
+}
+.about-page h2 {
+  margin-left: 10px;
+  font-size: 34px;
+  color: #1b98e0;
 }
 
 @keyframes svg_slide {

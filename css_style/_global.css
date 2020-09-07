@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   outline: none;
 }
 
@@ -35,6 +35,12 @@ li {
   list-style: none;
 }
 
-h1 {
-  font-family: "Carter One", cursive;
+p {
+  font-family: "Roboto";
+  font-size: 18px;
+}
+
+.about-page p {
+  padding: 10px 20px;
+  word-spacing: 2px;
 }
