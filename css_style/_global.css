@@ -10,7 +10,9 @@
   outline: none;
 }
 
-body {
+body,
+html {
+  scroll-behavior: smooth;
   height: 100%;
   width: 100%;
   background: #fff;
@@ -38,9 +40,26 @@ li {
 p {
   font-family: "Roboto";
   font-size: 18px;
+  margin-bottom: 30px;
 }
 
 .about-page p {
   padding: 10px 20px;
   word-spacing: 2px;
+}
+/* Icons design */
+.fab {
+  font-size: 85px;
+}
+.image-container .fa-html5 {
+  color: red;
+}
+.image-container .fa-css3-alt {
+  color: blue;
+}
+.image-container .fa-js {
+  color: yellow;
+}
+.image-container .fa-bootstrap {
+  color: purple;
 }
