@@ -199,7 +199,7 @@ img {
 
 .projects-page {
   position: relative;
-  height: 70vh;
+  height: 100vh;
   width: 80%;
   margin: 0 auto;
   padding: 50px 20px;
@@ -211,6 +211,13 @@ img {
   font-size: 54px;
   padding: 10px;
   border-bottom: 5px solid #1b98e0;
+}
+
+.projects-page h2 {
+  display: inline-flex;
+  color: #13293d;
+  font-size: 24px;
+  margin: 0 15px;
 }
 
 .projects-container {
@@ -229,6 +236,7 @@ img {
 }
 
 .projects-container p {
+  font-size: 16px;
   padding: 0 15px;
 }
 
