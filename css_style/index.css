@@ -300,6 +300,10 @@ nav {
   margin: 0 15px;
 }
 
+.image-container h3 {
+  font-family: "Bebas Neue";
+}
+
 .projects-container {
   height: 60vh;
   display: flex;
