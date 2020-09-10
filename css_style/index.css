@@ -1,3 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Carter+One&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bebas Neue", sans-serif;
+  outline: none;
+}
+
+body,
+html {
+  position: relative;
+  scroll-behavior: smooth;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+a {
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.2em;
+  position: relative;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  color: #13293d;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  font-family: "Roboto";
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.about-page p {
+  padding: 10px 20px;
+  word-spacing: 2px;
+}
+/* Icons design */
+.fab {
+  font-size: 85px;
+}
+.image-container .fa-html5 {
+  color: red;
+}
+.image-container .fa-css3-alt {
+  color: blue;
+}
+.image-container .fa-js {
+  color: yellow;
+}
+.image-container .fa-bootstrap {
+  color: purple;
+}
+
 header {
   position: relative;
   height: 500px;
