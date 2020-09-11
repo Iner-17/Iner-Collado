@@ -9,3 +9,16 @@ document.querySelector(".fa-times").onclick = () => {
   document.querySelector(".contact-form").style.display = "none";
   document.querySelector(".container").style.filter = "blur(0px)";
 };
+
+let openClose = false;
+$(".menu-bar").click(() => {
+  if (openClose == false) {
+    $(".nav-links").css("width", "250px");
+    $(".nav-links li").css("opacity", "1");
+    openClose = true;
+  } else {
+    $(".nav-links").css("width", "0px");
+    $(".nav-links li").css("opacity", "0");
+    openClose = false;
+  }
+});
