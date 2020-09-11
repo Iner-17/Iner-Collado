@@ -601,7 +601,7 @@ footer .fab {
   }
 
   nav {
-    padding: 0 40px;
+    padding: 0 20px;
   }
 
   .logo {
@@ -627,7 +627,7 @@ footer .fab {
   }
 
   .nav-links li {
-    opacity: 0;
+    display: none;
     transition: all 0.5s;
   }
 
@@ -675,5 +675,14 @@ footer .fab {
 
   .projects-page {
     height: 250vh;
+  }
+
+  .contact-form {
+    width: 300px;
+    height: 400px;
+  }
+
+  .contact-form div {
+    padding: 50px 10px 40px;
   }
 }

@@ -14,11 +14,11 @@ let openClose = false;
 $(".menu-bar").click(() => {
   if (openClose == false) {
     $(".nav-links").css("width", "250px");
-    $(".nav-links li").css("opacity", "1");
+    $(".nav-links li").css("display", "block");
     openClose = true;
   } else {
     $(".nav-links").css("width", "0px");
-    $(".nav-links li").css("opacity", "0");
+    $(".nav-links li").css("display", "none");
     openClose = false;
   }
 });
