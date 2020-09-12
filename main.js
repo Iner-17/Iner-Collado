@@ -1,22 +1,37 @@
-const contactForm = document.querySelector("#contactForm");
+//contact toggle
+let contactFormToggle = false;
+$("#contactForm").click(() => {
+  if (contactFormToggle == false) {
+    $(".container").css("filter", "blur(5px)");
+    $(".contact-form").css("display", "block");
+    $(".nav-links").css("width", "0px");
+    $(".nav-links li").css("display", "none");
+    $(".container").css("pointer-events", "none");
+    contactFormToggle = true;
+  }
 
-contactForm.addEventListener("click", () => {
-  document.querySelector(".contact-form").style.display = "block";
-  document.querySelector(".container").style.filter = "blur(5px)";
+  if (contactFormToggle == true) {
+    $(".fa-times").click(() => {
+      $(".container").css("filter", "blur(0px)");
+      $(".contact-form").css("display", "none");
+      $(".nav-links").css("width", "0px");
+      $(".nav-links li").css("display", "none");
+      $(".container").css("pointer-events", "all");
+      contactFormToggle = false;
+    });
+  }
 });
 
-document.querySelector(".fa-times").onclick = () => {
-  document.querySelector(".contact-form").style.display = "none";
-  document.querySelector(".container").style.filter = "blur(0px)";
-};
-
+//Toggle navbar
 let openClose = false;
 $(".menu-bar").click(() => {
   if (openClose == false) {
+    //to open menu bar
     $(".nav-links").css("width", "250px");
     $(".nav-links li").css("display", "block");
     openClose = true;
   } else {
+    //to close menu bar
     $(".nav-links").css("width", "0px");
     $(".nav-links li").css("display", "none");
     openClose = false;
