@@ -488,6 +488,7 @@ footer .fab {
     width: 90%;
   }
   .projects-page {
+    height: 130vh;
     width: 90%;
   }
 }
@@ -582,7 +583,7 @@ footer .fab {
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 665px) {
   .projects-container {
     margin-top: 2rem;
     border: 5px solid #1b98e0;

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css_style/index.css" />
     <title>Iner Collado</title>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <div class="container">
@@ -35,16 +36,16 @@
       <!-- Landing Page-->
       <section class="main-content">
         <div class="content">
-          <h1>
+          <h1 data-aos="zoom-in-down">
             Let's make your <br />dream <span class="web">website</span><br />
             come true...
           </h1>
-          <p>
+          <p data-aos="fade-right">
             Hi! I’m Iner, a self-taught aspiring front-end web developer based
             in Philippines who loves coding and always willing to learn new
             things.
           </p>
-          <div class="ctn">
+          <div class="ctn" data-aos="zoom-in-up">
             <a href="#projects_page">View selected Projects</a>
           </div>
         </div>
@@ -55,10 +56,10 @@
       <!-- About Page containing all my information-->
       <section class="about-page" id="about_page">
         <div class="personal-information">
-          <h1>Get to know me</h1>
+          <h1 data-aos="zoom-in-down">Get to know me</h1>
           <!-- PERSONAL INFORMATION -->
-          <h2>Personal Information</h2>
-          <p>
+          <h2 data-aos="slide-down">Personal Information</h2>
+          <p data-aos="fade-right">
             Hello! I am Iner Collado, a 17 years old aspiring front-end web
             developer from Philippines. When I was at the very young age I love
             to play online games that gives me the idea to learn programming and
@@ -72,38 +73,42 @@
             cycling or spending time with friends or family.
           </p>
           <!-- INTEREST -->
-          <h2>Interest</h2>
-          <p>
+          <h2 data-aos="slide-down">Interest</h2>
+          <p data-aos="fade-left">
             I am interested to enhance my web development skills by working with
             you. I am also looking for a challenging position to work with other
             developers to improve my skills in terms of developing, designing
             and communicating.
           </p>
           <!-- EDUCATION -->
-          <h2>Education</h2>
-          <h3>Secondary Education</h3>
-          <p>-Laguna University Sta Cruz Laguna (2019-2021)</p>
-          <h3>Primary Education</h3>
-          <p>-Masapang Elementary School</p>
+          <h2 data-aos="slide-down">Education</h2>
+          <h3 data-aos="fade-in">Secondary Education</h3>
+          <p data-aos="fade-right">
+            -Laguna University Sta Cruz Laguna (2019-2021)
+          </p>
+          <h3 data-aos="fade-in">Primary Education</h3>
+          <p data-aos="fade-left">-Masapang Elementary School</p>
           <!-- WHAT CAN I DO -->
-          <h2>What can I do</h2>
-          <h3>Design what you want</h3>
-          <p>
+          <h2 data-aos="slide-down">What can I do</h2>
+          <h3 data-aos="fade-in">Design what you want</h3>
+          <p data-aos="fade-right">
             I love designing website as simple as possible it gives user a clean
             and user-friendly interface
           </p>
-          <h3>Develop what you need</h3>
-          <p>
+          <h3 data-aos="fade-in">Develop what you need</h3>
+          <p data-aos="fade-left">
             I am a web developer so that I can build your dream website that you
             need.
           </p>
 
           <h2>Languages and Tools</h2>
           <div class="image-container">
-            <i class="fab fa-html5"><h3>HTML5</h3></i>
-            <i class="fab fa-css3-alt"><h3>CSS3</h3></i>
-            <i class="fab fa-js"><h3>Javascript</h3></i>
-            <i class="fab fa-bootstrap"><h3>Bootstrap</h3></i>
+            <i class="fab fa-html5" data-aos="flip-up"><h3>HTML5</h3></i>
+            <i class="fab fa-css3-alt" data-aos="flip-left"><h3>CSS3</h3></i>
+            <i class="fab fa-js" data-aos="flip-down"><h3>Javascript</h3></i>
+            <i class="fab fa-bootstrap" data-aos="flip-right"
+              ><h3>Bootstrap</h3></i
+            >
           </div>
         </div>
       </section>
@@ -172,5 +177,11 @@
       </div>
     </div>
     <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+      });
+    </script>
   </body>
 </html>
