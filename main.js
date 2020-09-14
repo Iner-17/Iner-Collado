@@ -1,6 +1,6 @@
 $("#contactForm").click(function () {
   $(".contact-form").toggleClass("show-contact-form");
-  $(".nav-links").toggleClass("show-nav-links");
+  $(".nav-links").slideToggle();
 });
 
 $(".fa-times").click(function () {
@@ -8,5 +8,5 @@ $(".fa-times").click(function () {
 });
 
 $(".menu-bar").click(function () {
-  $(".nav-links").toggleClass("show-nav-links");
+  $(".nav-links").slideToggle();
 });
