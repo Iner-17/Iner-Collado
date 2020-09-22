@@ -62,8 +62,8 @@ p {
 .image-container .fa-js {
   color: yellow;
 }
-.image-container .fa-bootstrap {
-  color: purple;
+.image-container .fa-git-alt {
+  color: rgb(253, 94, 31);
 }
 
 header {
@@ -275,20 +275,24 @@ nav {
   margin: 5px 15px;
 }
 
-.image-container h3 {
+.image-container i h3 {
   font-size: 24px;
-  margin: 0;
+  margin: 0 auto;
   text-align: left;
   color: #1b98e0;
 }
 
 .image-container {
-  margin: 40px auto;
-  width: 100%;
-  height: 10vh;
+  margin: 30px auto;
+  max-width: 100%;
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   align-items: center;
+}
+
+.image-container i {
+  font-size: 54px;
 }
 
 .projects-page {
@@ -635,14 +639,12 @@ footer .fab {
 
   .nav-links {
     position: fixed;
-    flex-direction: column;
-    align-items: center;
+    display: none;
     top: 7vh;
     left: 0;
     width: 100%;
     background: #1b98e0;
     padding: 50px;
-    display: none;
   }
   /* 
   .show-nav-links {
@@ -695,6 +697,12 @@ footer .fab {
 
   .contact-form div {
     padding: 50px 10px 40px;
+  }
+}
+
+@media screen and (max-width: 578px) {
+  nav.responsive .nav-links {
+    display: block;
   }
 }
 
