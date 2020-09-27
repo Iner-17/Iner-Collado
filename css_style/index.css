@@ -300,6 +300,7 @@ nav {
   width: 80%;
   margin: 0 auto;
   padding: 50px 0 0 0;
+  overflow: scroll;
 }
 
 .projects-page h1 {
@@ -339,6 +340,7 @@ nav {
   padding: 15px;
   width: 400px;
   max-width: 300px;
+  padding: 20px;
   height: 200px;
 }
 
